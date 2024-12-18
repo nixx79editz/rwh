@@ -51,7 +51,7 @@ print("""
  |_____/   |_|  \____/|_|  \_\_|  |_| |_____/|______|______|_|    |____/ \____/  |_|        \/   |____/ 
 
                                     Developer: notherxenon & shadow.4real
-                                            Github: rifatgaminop                                                                   
+                                            Github: rifatgamingop                                                                   
 
 """)
 
