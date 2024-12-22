@@ -18,9 +18,9 @@ Download Termux on your phone and open it and use this commands on termux
 
 ``pkg install python``
 
-``git clone https://github.com/rifatgamingop/Storm-Selfbot-V2``
+``git clone https://github.com/rifatgamingop/Storm-Selfbot-V3``
 
-``cd Storm-Selfbot-V2``
+``cd Storm-Selfbot-V3``
 
 ``pip install -r requirements.txt``
 
@@ -37,8 +37,8 @@ Download Termux on your phone and open it and use this commands on termux
 
 ``sudo apt install python3``
 
-``git clone https://github.com/rifatgamingop/Storm-Selfbot-V2``
+``git clone https://github.com/rifatgamingop/Storm-Selfbot-V3``
 
-``cd Storm-Selfbot-V2``
+``cd Storm-Selfbot-V3``
 
 ``pip install -r requirements.txt``
