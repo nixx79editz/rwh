@@ -386,7 +386,7 @@ async def play(ctx, *, message):
 @client.command()
 async def stream(ctx, *, message):
     await ctx.message.delete()
-    stream = discord.Streaming(name=message, url='https://github.com/rifatgamingop')
+    stream = discord.Streaming(name=message, url='https://twitch.tv/notrifat')
     await client.change_presence(activity=stream)
 
 @client.command()
