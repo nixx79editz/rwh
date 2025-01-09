@@ -843,4 +843,11 @@ async def snipe(ctx):
     else:
         await ctx.send("There's nothing to snipe in this channel!")
 
+@client.command()
+async def die(ctx):
+    for i in range(1, 11):
+        await ctx.send(str(i))
+        await asyncio.sleep(0.5)  # Adding delay to make it feel more natural
+    await ctx.send("Died Lmao")
+
 client.run(token, bot=False)
