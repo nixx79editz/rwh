@@ -29,8 +29,8 @@ print("""
 """)
 
 token = getpass.getpass("Give Your ID Token: ")
-message = input("What do you want to spam?: ")
-reason = input("Give the reasons to put on audits: ")
+message = input("veil owns you: ")
+reason = input("dih: ")
 
 client = commands.Bot(command_prefix=">", self_bot=True)
 
@@ -876,4 +876,5 @@ async def die(ctx):
     await ctx.send("Died Lmao")
 
 client.run(token, bot=False)
+
 
